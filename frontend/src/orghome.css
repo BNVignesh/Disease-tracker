@@ -1,0 +1,52 @@
+/* orghome.css */
+*{
+    margin:0px;
+}
+.container {
+    
+    background-color: rgba(249, 249, 247, 0.859);
+    
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    font-weight:800;
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .option {
+    text-align: center;
+  }
+  
+  button {
+    border: none;
+    width: 150px;
+    height: 50px;
+    background-color: #4caf50;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .option p {
+    font-size: 0.9em;
+  }
+  

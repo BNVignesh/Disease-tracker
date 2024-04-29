@@ -1,0 +1,63 @@
+/* Reset default font and set body background */
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    background-color: aquamarine;
+    background-image: url(home_page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Center-align heading */
+h1 {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling for input elements */
+input {
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Main container for disease and city sections */
+.main {
+    width: 100%;
+    display: flex;
+    background-color: rgba(240, 248, 255, 0.7);
+    height: 660px;
+}
+
+/* Styles for disease section */
+.disease, .city {
+    font-weight: 600;
+    text-align: center;
+    width: 50%;
+}
+
+/* Right border for separation */
+.disease {
+    border-right: 2px solid black;
+}
+
+/* Styles for input containers */
+.dinput, .cinput {
+    width: 100%;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Output container styles */
+.output, .coutput {
+    width: 100%;
+    text-align: center;
+    overflow: auto; /* Adding overflow auto to enable scrollbars if content overflows */
+    max-height: 300px; /* Setting a maximum height to limit the size of the output container */
+}
